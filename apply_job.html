@@ -9,8 +9,77 @@
     <title>Apply - NexTech Solutions Inc.</title>
 </head>
 <body>
-    <h3>Welcome to our job application portal</h3>
-
-    <script src="apply_job.js"></script>
-</body>
+    <div class="container">
+      <div class="content">
+        <div class="left-side">
+          <div class="topic-text">NexTech Solutions Inc.</div>
+          <div class="address details">
+            <i class="fas fa-map-marker-alt" style="color: #823E9E"></i>
+            <div class="topic">Address</div>
+            <div class="text-one">NexTech Solutions Inc.</div>
+            <div class="text-two">Kigali, Rwanda KK 509 Street</div>
+          </div>
+          <div class="phone details">
+            <i class="fas fa-phone-alt" style="color: #823E9E"></i>
+            <div class="topic">Phone</div>
+            <div class="text-one">+(250) 7909 76330</div>
+          </div>
+          <div class="email details">
+            <i class="fas fa-envelope" style="color: #823E9E"></i>
+            <div class="topic">Email</div>
+            <div class="text-one">contact@technexsolutions.com</div>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="topic-text">APPLY HERE</div>
+          <p>"We are excited to have you consider joining our team of dedicated professionals at NexTech Solutions Inc.
+  We value diversity and inclusion, and we are proud to be an equal opportunity employer. Your skills and experience matter to us, and we believe that every application is important.</p>
+  
+        <form action="#" onsubmit="return validateForm()">
+          <label for="fullName">Enter your full names:</label>
+          <div class="input-box">
+            <!-- <input type="text" placeholder="Enter your full names"> -->
+            <input type="text" id="fullName" name="fullName" placeholder="Nshimiye Emmy" required>
+          </div>
+  
+          <label for="fullName">Enter your email address:</label>
+          <div class="input-box">
+            <!-- <input type="text" placeholder="Enter your email"> -->
+            <input type="email" id="email" name="email" placeholder="nshimiye311@gmail.com" required>
+          </div>
+  
+          <label for="fullName">Enter your phone number:</label>
+          <div class="input-box">
+            <!-- <input type="text" placeholder="Enter your email"> -->
+            <input type="text" id="phoneNumber" name="phoneNumber" placeholder="123-456-7890" required>
+          </div>
+  
+          <label for="fullName">Enter your linkedIn profile:</label>
+          <div class="input-box">
+            <!-- <input type="text" placeholder="Enter your email"> -->
+            <input type="url" id="linkedinUrl" name="linkedinUrl" placeholder=" https://www.linkedin.com/username" required>
+          </div>
+  
+          <label for="fullName">Enter your cover letter:</label>
+          <div class="input-box">
+            <!-- <input type="text" placeholder="Enter your email"> -->
+            <textarea id="coverLetter" name="coverLetter" placeholder="Write your cover letter" required></textarea>
+          </div>
+  
+          <label for="fullName">Enter your salary expectation:</label>
+          <div class="input-box">
+            <!-- <input type="text" placeholder="Enter your email"> -->
+            <input type="text" id="expectedSalary" name="expectedSalary" placeholder="45000.99" required>
+          </div>
+          
+          <div class="button">
+            <input type="submit" value="Submit Now" >
+          </div>
+          <div id="message"></div>
+        </form>
+      </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
 </html>
