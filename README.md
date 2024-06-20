@@ -11,6 +11,9 @@ This repository contains the code for a job application form created by Group 23
 - [Contributing](#contributing)
 - [Contact](#contact)
 
+![image](https://github.com/nshimiyeemmy/summative_assessment_one_group23/assets/52126336/31476fb6-110f-4cc0-913e-dd7a5156aca8)
+
+
 ## Introduction
 
 This project is a job application form for NexTech Solutions Inc. It allows applicants to fill out their details and submit their application. The form includes fields for full name, email address, phone number, LinkedIn profile, cover letter, and salary expectation. The form also includes validation to ensure the inputs are correctly formatted.
